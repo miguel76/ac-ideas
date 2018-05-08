@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "sent_timestamp": "",
+    "current_timestamp": "",
+    "n_expected_responses":	3,
+    "n_received_responses":	2,
+    "status":	"PR",
+    "response_id": "5634",
+    "collect_url": "http://..."
+  },
+  "contents": {
+    "Freesound": {
+      "num_results": 2,
+      "results": [
+        {
+            "ac:id": "Freesound:199261",
+            "ac:url": "https://freesound.org/people/felix.blume/sounds/199261/",
+            "ac:name": "A dog barking (close recording)",
+            "ac:author": "felix.blume",
+            "ac:license": "CC0",
+            "ac:preview_url": "https://freesound.org/data/previews/199/199261_1661766-hq.ogg"
+        },
+        {
+            "ac:id": "Freesound:137981",
+            "ac:url": "https://freesound.org/people/felix.blume/sounds/137981/",
+            "ac:name": "A dog groaning, moaning, sniffing, panting and grunting.",
+            "ac:author": "felix.blume",
+            "ac:license": "CC0",
+            "ac:preview_url": "https://freesound.org/data/previews/137/137981_1661766-hq.ogg"
+        }
+      ]
+    },
+    "Jamendo": {
+      "num_results": null,
+      "results": [
+        {
+            "ac:id": "Jamendo:347597",
+            "ac:url": "http://www.jamendo.com/track/347597",
+            "ac:name": "Electronica - Crazy Electronic",
+            "ac:author": "Electronica",
+            "ac:license": "BY-NC-ND",
+            "ac:preview_url": "https://mp3d.jamendo.com/download/track/347597/mp32/"
+        },
+        {
+            "ac:id": "Jamendo:347611",
+            "ac:url": "http://www.jamendo.com/track/347611",
+            "ac:name": "Electronica - Zeitreise",
+            "ac:author": "Electronica",
+            "ac:license": "BY-NC-ND",
+            "ac:preview_url": "https://mp3d.jamendo.com/download/track/347611/mp32/"
+        }
+      ]
+    }
+  }
+}

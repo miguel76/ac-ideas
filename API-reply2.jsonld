@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "ac": "http://audiocommons.org/ns/audiocommons#",
+    "dc": "http://purl.org/dc/terms/",
+    "cc": "https://creativecommons.org/ns#",
+    "ccLicenses": "https://creativecommons.org/licenses/by-nc/",
+    "fs": "http://audiocommons.org/ns/freesound/",
+    "fsSound": "http://audiocommons.org/ns/freesound/sounds/",
+    "fsArtist": "http://audiocommons.org/ns/freesound/artists/",
+    "membersCount": {"@id": "ac:membersCount", "@type": "xsd:int"},
+    "collectionAsList": {"@id": "ac:collectionAsList", "@container": "@list", "@type": "ac:AudioClip"},
+    "homepage": {"@id": "ac:homepage", "@type": "@id"},
+    "title": "dc:title",
+    "compiler": { "@reverse": "ac:compiled" },
+    "license": {"@id": "cc:license", "@type": "@id"},
+    "preview": {"@id": "ac:preview", "@type": "@id"}
+ },
+  "@type": "ac:AudioCollection",
+  "membersCount": 2,
+  "collectionAsList": [
+    {
+      "@id": "fsSound:199261",
+      "@type": "ac:AudioClip",
+      "homepage": "https://freesound.org/people/felix.blume/sounds/199261/",
+      "title": "A dog barking (close recording)",
+      "compiled": "fsArtist:felix.blume",
+      "license": "ccLicenses:CC0",
+      "preview": "https://freesound.org/data/previews/199/199261_1661766-hq.ogg"
+    },
+    {
+      "@id": "fsSound:137981",
+      "@type": "ac:AudioClip",
+      "homepage": "https://freesound.org/people/felix.blume/sounds/137981/",
+      "title": "A dog groaning, moaning, sniffing, panting and grunting.",
+      "compiled": "fsArtist:felix.blume",
+      "license": "ccLicenses:CC0",
+      "preview": "https://freesound.org/data/previews/137/137981_1661766-hq.ogg"
+    }
+  ]
+}
