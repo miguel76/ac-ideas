@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-03T10:56:24.620Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.10" etag="KB0ueaHPhbeHwzzWrVle" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-02-03T10:58:05.534Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.10" etag="6SBNt8uClGKnuGUqW4LA" type="github" pages="12">
   <diagram id="ec398162-c5f1-eeae-45ea-f641ee5b5edc" name="Ontology-Main">
     <mxGraphModel dx="2408" dy="1558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1913,7 +1913,7 @@
         </mxCell>
         <mxCell id="44" value="0..n" style="resizable=0;html=1;align=left;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;direction=west;" parent="43" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="-26" as="offset" />
+            <mxPoint x="-30" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="45" value="1" style="resizable=0;html=1;align=right;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;" parent="43" connectable="0" vertex="1">
@@ -2191,14 +2191,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="156" value="0..n" style="resizable=0;html=1;align=left;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;" parent="155" connectable="0" vertex="1">
+        <mxCell id="156" value="0..1" style="resizable=0;html=1;align=left;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;" parent="155" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="10" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="157" value="0..1" style="resizable=0;html=1;align=right;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;" parent="155" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry">
-            <mxPoint x="-10" y="-25" as="offset" />
+            <mxPoint x="-10" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
